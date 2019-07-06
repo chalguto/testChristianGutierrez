@@ -1,0 +1,15 @@
+<h2>Array</h2>
+
+<ul class="items">
+
+ 
+    <li *ngFor="let item of items | keyvalue">
+        
+
+        <span class="badge">{{i+1}}</span>
+        <span class="badge">{{item.key}} - {{item.value | json}}</span>
+
+    </li>
+
+
+</ul>
